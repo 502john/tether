@@ -1,0 +1,12 @@
+version: '3'
+services:
+  backend:
+  build: ./backend
+  ports:
+  - "8080:8080"
+  volumes:
+  - ./backend:/app/backend
+  depends_on:
+  - db
+  env_file: 
+  - backend/.env
