@@ -1,0 +1,6 @@
+backend/.venv
+backend/.python-version
+
+*notes.md
+
+backend/__pycache__
