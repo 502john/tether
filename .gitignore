@@ -4,3 +4,11 @@ backend/.python-version
 *notes.md
 
 backend/__pycache__
+
+
+**/__pycache__/
+
+**.pyc
+
+/no_commit
+
